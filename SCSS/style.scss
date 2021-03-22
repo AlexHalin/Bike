@@ -95,13 +95,17 @@ body, html {
       list-style: none;
       & li {
         display: block;
-        color: #4d4959;
         padding: 35px 37.5px;
         cursor: pointer;
         font-size: 13px;
         font-weight: bold;
         text-transform: uppercase;
         letter-spacing: 3.6px;
+
+        a {
+          text-decoration: none;
+          color: #4d4959;
+        }
       }
 
       & a img {
@@ -328,6 +332,7 @@ body, html {
       @extend %BG_RPS;
       @include logo_a(-15px 0 0 -25.5px);
       width: 100%;
+      text-decoration: none;
       @extend %green;
       .text_a {
         padding: 0;
@@ -378,6 +383,7 @@ body, html {
       border: 1px solid #94979a;
       padding: 20px 4.5%;
       cursor: pointer;
+      text-decoration: none;
       &:hover,
       &:focus {
         background: rgba(98, 169, 144, 0.8);
@@ -813,7 +819,9 @@ body, html {
         transition: all 1s ease-out;
         pointer-events: none;
         & li {
-          color: white;
+          a {
+            color: white;
+          }
           font-size: 24px;
         }
 

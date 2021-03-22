@@ -44,13 +44,15 @@ body, html {
     list-style: none; }
     .header_logo .main_navigation .site_navigation li {
       display: block;
-      color: #4d4959;
       padding: 35px 37.5px;
       cursor: pointer;
       font-size: 13px;
       font-weight: bold;
       text-transform: uppercase;
       letter-spacing: 3.6px; }
+      .header_logo .main_navigation .site_navigation li a {
+        text-decoration: none;
+        color: #4d4959; }
     .header_logo .main_navigation .site_navigation a img {
       padding: 35px 37.5px; }
     .header_logo .main_navigation .site_navigation li:nth-child(1):after {
@@ -215,7 +217,8 @@ body, html {
       width: 100%; }
     .wrapper .block #img_2_5 {
       background-image: url("../img/content_2_img_5.jpg");
-      width: 100%; }
+      width: 100%;
+      text-decoration: none; }
       .wrapper .block #img_2_5 .logo_a {
         position: relative;
         right: -50%;
@@ -255,7 +258,8 @@ body, html {
     .wrapper .shop .description_title {
       border: 1px solid #94979a;
       padding: 20px 4.5%;
-      cursor: pointer; }
+      cursor: pointer;
+      text-decoration: none; }
       .wrapper .shop .description_title:hover, .wrapper .shop .description_title:focus {
         background: rgba(98, 169, 144, 0.8);
         transition: 0.5s; }
@@ -580,8 +584,9 @@ body, html {
       transition: all 1s ease-out;
       pointer-events: none; }
       .header_logo .main_navigation .site_navigation li {
-        color: white;
         font-size: 24px; }
+        .header_logo .main_navigation .site_navigation li a {
+          color: white; }
       .header_logo .main_navigation .site_navigation .burger_logo {
         order: -1; }
       .header_logo .main_navigation .site_navigation li:nth-child(1):after {
