@@ -37,6 +37,7 @@ body, html {
     &:hover,
     &:focus {
       background: rgba(98, 169, 144, 0.8);
+      transition: 0.5s;
     }
   }
 }
@@ -380,6 +381,7 @@ body, html {
       &:hover,
       &:focus {
         background: rgba(98, 169, 144, 0.8);
+        transition: 0.5s;
       }
     }
   }

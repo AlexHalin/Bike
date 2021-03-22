@@ -29,7 +29,8 @@ body, html {
   height: 100%;
   cursor: pointer; }
   .wrapper .column_big .green:hover, .wrapper .column_small .green:hover, .wrapper .block #img_2_5 .green:hover, .wrapper .column_big .green:focus, .wrapper .column_small .green:focus, .wrapper .block #img_2_5 .green:focus {
-    background: rgba(98, 169, 144, 0.8); }
+    background: rgba(98, 169, 144, 0.8);
+    transition: 0.5s; }
 
 .header_logo {
   background-image: url("../img/Navigation_img.jpg");
@@ -256,7 +257,8 @@ body, html {
       padding: 20px 4.5%;
       cursor: pointer; }
       .wrapper .shop .description_title:hover, .wrapper .shop .description_title:focus {
-        background: rgba(98, 169, 144, 0.8); }
+        background: rgba(98, 169, 144, 0.8);
+        transition: 0.5s; }
   .wrapper .contact .description {
     background-color: #ffffff;
     text-align: center;
